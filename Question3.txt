@@ -1,1 +1,15 @@
-Explain what a branch is, in your own words
+$ git branch
+# to list all available branches (and point to your current branch)
+
+$ git branch <new_branch>
+# to create branch called <new_branch>
+
+$ git checkout <branch_name>
+# to move to a different branch
+
+Why?
+You create branches when you want to deviate from the main (master) repository.
+Either you want to make some changes, add things, remove things or explore new possibilities.
+What?
+A branch is basicaly a deviation from your project. 
+e.g.: you master + whatever experiment(feature) you had in mind.
