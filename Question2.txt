@@ -1,1 +1,6 @@
-Explain what the "upstream" remote is usually used for, in your own words
+$ git remote add upstream <url_upstream> 
+Upstream remote: 
+Why?
+when you create a fork from someone's remote repo, you want to fetch whatever new changes they have from time to time. That is why you set up a remote upstream.
+What?
+The actual remote upstream is the main repo that is online, from which everyone forks and to which you will make the pull request once you're done with the changes in your forked repository and want to integrate it with everybody else's work.
