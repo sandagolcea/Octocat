@@ -1,1 +1,7 @@
-Explain what git clone does, in your own words
+git clone <git@github.com:userName/RepoName.git>
+Copies the remote repository from github (bitbucket etc.) into your working area (i.e. working dir).
+By default makes a directory to contain your repo, called <RepoName>.
+
+$ git clone <git@github.com:userName/OldName.git> <NewName>
+to clone in a directory called <NewName> instead of <OldName> (a by per default).
+
